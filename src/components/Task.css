@@ -1,0 +1,37 @@
+.taskPage{
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.taskPage h2{
+    width:max-content;
+    border-radius: 12px;
+    padding: 6px;
+    background-color:lightskyblue;
+}
+
+.taskPage__task__taskTable__table{
+    padding: 0;
+    margin: 6px 0;
+}
+
+.taskPage__task__taskTable table{
+    border: none;
+    border-collapse: collapse;
+}
+
+.taskPage .taskEdit{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.taskPage button {
+    width: max-content;
+    background-color: white;
+    border: 1px solid black;
+    padding: 6px;
+    margin: 22px 0;
+}

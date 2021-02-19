@@ -1,0 +1,31 @@
+.infotable{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+table{
+    flex: 0.85;
+    text-align: left;
+}
+
+select{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+option {
+    margin: none;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+.infotable > button {
+    flex: 0.10;
+    background-color: transparent;
+    border-radius: 16px;
+}

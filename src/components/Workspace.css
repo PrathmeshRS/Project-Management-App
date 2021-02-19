@@ -1,0 +1,44 @@
+.workspace{
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.workspace__wName{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.workspace__wName > h1{
+    background-color: pink;
+    padding-right: 5px;
+    border-radius: 6px;
+    margin-right: 8px;
+}
+
+.workspace__w{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+
+.workspace__w > p{
+    position: sticky;
+    padding: 4px;
+    border-radius: 100%;
+    background-color: aquamarine;
+    font-weight: 600;
+}
+
+.workspace__newProject{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+

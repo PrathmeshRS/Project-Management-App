@@ -1,0 +1,31 @@
+.taskTable__table{
+    padding: 0;
+    margin: 6px 0;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+
+.taskTable table{
+    border: none;
+    border-collapse: collapse;
+}
+
+.taskTable table>thead{
+    border: none;
+    background-color: lightgray;
+}
+
+.taskTable thead th:first-of-type{
+    border-top-left-radius: 7px;
+    width: 250px; 
+}
+
+.taskTable thead th:last-of-type{
+    border-top-right-radius: 7px; 
+}
+
+table{
+    width: 100%;
+    margin: 0;
+    border-spacing: 0px;
+}

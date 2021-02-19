@@ -1,0 +1,14 @@
+.project{
+    display: flex;
+    flex-direction: column;
+}
+
+.project__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projectInfo{
+    margin: 0 0 22px 0;
+}
